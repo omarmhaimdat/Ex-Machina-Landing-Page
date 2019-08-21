@@ -8,6 +8,7 @@
   <title>Ex-Machina</title>
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+  <link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet">
   <!-- Bootstrap core CSS -->
   <link href="css/bootstrap.min.css" rel="stylesheet">
   <!-- Material Design Bootstrap -->
@@ -18,345 +19,67 @@
 </head>
 
 <body>
-<div class="container">
-  <!-- Start your project here-->
-  <!--Navbar -->
-<nav class="mb-1 navbar navbar-expand-lg navbar-light">
-    <a class="navbar-brand" href="#">
-          <span style="font-size: 18px;padding-left: 10px;font-weight: 600;">Ex - Machina</span>
-      </a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-4"
-    aria-controls="navbarSupportedContent-4" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarSupportedContent-4">
-    <ul class="navbar-nav ml-auto mr-auto">
-      <li class="nav-item">
-        <a class="nav-link" href="#">
-          Home
-        </a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">
-          Features</a>
-      </li>
-      <li class="nav-item">
+<header style="background: black;" id="header">
+  <div class="container">
+      <nav class="mb-1 navbar navbar-expand-lg navbar-light">
+          <a class="navbar-brand" href="#">
+            <img src="./img/Capture.PNG" height="30" alt="mdb logo">
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-4"
+            aria-controls="navbarSupportedContent-4" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent-4">
+            <ul class="navbar-nav ml-auto mr-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#header">
+                  Home
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  Features</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#">
+                    About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                      Contact</a>
+                  </li>
+            </ul>
+          </div>
           <a class="nav-link" href="#">
-            About</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#">
-              Contact</a>
-          </li>
-    </ul>
+              <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+              width="16" height="16"
+              viewBox="0 0 172 172"
+              style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#ffffff"><path d="M86,132.94167l-39.41667,-46.94167h78.83333zM71.66667,14.33333h28.66667v14.33333h-28.66667zM71.66667,35.83333h28.66667v14.33333h-28.66667z"></path><path d="M71.66667,57.33333h28.66667v39.41667h-28.66667zM21.5,143.33333h129v14.33333h-129z"></path></g></g></svg> 
+            </a>
+        
+        </nav>
   </div>
-  <a class="nav-link"><i class="fas fa-download"></i> <span class="clearfix d-none d-sm-inline-block"></span></a>
 
-</nav>
-<div style="height: 2.5cm;"></div>
-<div class="jumbotron card card-image" style="background: transparent !important;">
-  <div class="text-white text-center py-5 px-4" style="
-  background: white;
-  box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
-">
-    <div>
-      <h2 class="card-title h1-responsive pt-3 mb-5 font-bold" style="color: black;"><strong>Ex-Machina</strong></h2>
-      <p class="mx-5 mb-5" style="color: #494D51;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-      </p>
-      <button type="button" class="btn btn-deep-purple">Deep-purple</button>
-      <button type="button" class="btn btn-outline-deep-purple waves-effect">Secondary</button>
-
-
+   <div class="container">
+    <div class="row">
+      <div class="col-md-5">
+          <div class="jumbotron white-text" style="background: transparent !important;">
+              <h2 class="display-4 c-heading">Ex - Machina</h2>
+              <p class="lead c-paragraph white-text">This is a simple hero unit, a simple jumbotron-style.</p>
+              <button class="btn btn-default btn-sm" style="background: #D4C100 !important;">Download App  <i class="fas fa-angle-right ml-1"></i></button>
+            </div>
+      </div>
+      <div class="col-md-7">
+         <img src="./img/iPhone-X1.png" alt="">
+       </div>
     </div>
-  </div>
-</div>
-<div style="height: 3.5cm;"></div>
-<!-- Card Light -->
-<div class="card aboutus">
-
-   <div class="row" style="border: 1px solid lightgray;">
-     <div class="col-6 text-center" style="align-self: center;">
-       <img src="./img/Capture.PNG" alt="" srcset="" width="250px">
-     </div>
-     <div class="col-6">
-        <div class="container">
-
-            <!--Section: Features v.1-->
-            <section id="features" class="mb-5">
-      
-              <!--Section heading-->
-              <h2 class="mb-3 my-5 pt-5 wow fadeIn text-center" data-wow-delay="0.2s" style="visibility: visible; animation-name: fadeIn; animation-delay: 0.2s;color:#D4C100;"> About Us</h2>
-    
-              <p class="text-center" style="font-size: 18px;font-weight: lighter;">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                <br/> Laborum quas.Lorem ipsum dolor sit amet.</p>
-              <!--Section description-->
-              <p class="text-center " data-wow-delay="0.2s" style="font-size: 15px;color: #494D51;visibility: visible; animation-name: fadeIn; animation-delay: 0.2s;margin-top: 35px !important;font-weight: lighter;">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br/> Laborum quas, eos officia maiores ipsam ipsum
-                dolores<br/> reiciendis 
-                ad voluptas, animi obcaecati adipisci sapiente <br/> mollitia.</p>
-      
-            </section>
-            <!--/Section: Features v.1-->
-      
-          </div>
-     </div>
    </div>
-  </div>
-  <div style="height: 3.5cm;"></div>
-<div class="team">
-    <h2 class="mb-3 my-5 pt-5 wow fadeIn text-center" data-wow-delay="0.2s" style="visibility: visible; animation-name: fadeIn; animation-delay: 0.2s;color:#D4C100;">Team</h2>
-    <p class="text-center" style="color: #494D51;">Excepteur sint occaecat cupidatat non proident, <br/>sunt in culpa qui officia deserunt </p>
-    <section class="section-preview">
+</header>
 
-        <!--Carousel Wrapper-->
-        <div id="multi-item-example" class="carousel slide carousel-multi-item" data-ride="carousel">
-    
-          <!--Controls-->
-          <div class="controls-top">
-            <a class="btn-floating waves-effect waves-light" href="#multi-item-example" data-slide="prev"><i class="fas fa-chevron-left" style="background: #D4C100;"></i></a>
-            <a class="btn-floating waves-effect waves-light" href="#multi-item-example" data-slide="next"><i class="fas fa-chevron-right" style="background: #D4C100;"></i></a>
-          </div>
-          <!--/.Controls-->
-    
-          <!--Indicators-->
-          <ol class="carousel-indicators">
-            <li data-target="#multi-item-example" data-slide-to="0" class=""></li>
-            <li data-target="#multi-item-example" data-slide-to="1" class=""></li>
-            <li data-target="#multi-item-example" data-slide-to="2" class="active"></li>
-          </ol>
-          <!--/.Indicators-->
-    
-          <!--Slides-->
-          <div class="carousel-inner" role="listbox">
-    
-            <!--First slide-->
-            <div class="carousel-item">
-    
-              <div class="col-md-4">
-                <div class="card mb-2 cardmb-2 cardmb-2">
-                  <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(34).jpg" alt="Card image cap">
-                  <div class="card-body cardbody">
-                      <p class="card-title text-center" style="
-      font-size: 20px;
-      color: white !important;
-  ">Omar Mhaimdate</p>
-                      <p class="card-text text-center" style="
-      font-size: 14px;
-      color: white;
-  ">Co-Founder &amp; CTO</p>
-  <hr style="
-      border:1px solid #D4C100;
-  ">
-                      <a class="text-center" style="
-      color: white;
-  ">Read More</a>
-                    </div>
-                </div>
-              </div>
-    
-              <div class="col-md-4">
-                <div class="card mb-2 cardmb-2 cardmb-2">
-                  <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(18).jpg" alt="Card image cap">
-                  <div class="card-body cardbody">
-                      <p class="card-title text-center" style="
-      font-size: 20px;
-      color: white !important;
-  ">Omar Mhaimdate</p>
-                      <p class="card-text text-center" style="
-      font-size: 14px;
-      color: white;
-  ">Co-Founder &amp; CTO</p>
-  <hr style="
-      border:1px solid #D4C100;
-  ">
-                      <a class="text-center" style="
-      color: white;
-  ">Read More</a>
-                    </div>
-                </div>
-              </div>
-    
-              <div class="col-md-4">
-                <div class="card mb-2 cardmb-2">
-                  <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(35).jpg" alt="Card image cap">
-                  <div class="card-body cardbody">
-                      <p class="card-title text-center" style="
-      font-size: 20px;
-      color: white !important;
-  ">Omar Mhaimdate</p>
-                      <p class="card-text text-center" style="
-      font-size: 14px;
-      color: white;
-  ">Co-Founder &amp; CTO</p>
-  <hr style="
-      border:1px solid #D4C100;
-  ">
-                      <a class="text-center" style="
-      color: white;
-  ">Read More</a>
-                    </div>
-                </div>
-              </div>
-    
-            </div>
-            <!--/.First slide-->
-    
-            <!--Second slide-->
-            <div class="carousel-item">
-    
-              <div class="col-md-4">
-                <div class="card mb-2 cardmb-2">
-                  <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(60).jpg" alt="Card image cap">
-                  <div class="card-body cardbody">
-                      <p class="card-title text-center" style="
-      font-size: 20px;
-      color: white !important;
-  ">Omar Mhaimdate</p>
-                      <p class="card-text text-center" style="
-      font-size: 14px;
-      color: white;
-  ">Co-Founder &amp; CTO</p>
-  <hr style="
-      border:1px solid #D4C100;
-  ">
-                      <a class="text-center" style="
-      color: white;
-  ">Read More</a>
-                    </div>
-                </div>
-              </div>
-    
-              <div class="col-md-4">
-                <div class="card mb-2 cardmb-2">
-                  <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(47).jpg" alt="Card image cap">
-                  <div class="card-body cardbody">
-                      <p class="card-title text-center" style="
-      font-size: 20px;
-      color: white !important;
-  ">Omar Mhaimdate</p>
-                      <p class="card-text text-center" style="
-      font-size: 14px;
-      color: white;
-  ">Co-Founder &amp; CTO</p>
-  <hr style="
-      border:1px solid #D4C100;
-  ">
-                      <a class="text-center" style="
-      color: white;
-  ">Read More</a>
-                    </div>
-                </div>
-              </div>
-    
-              <div class="col-md-4">
-                <div class="card mb-2 cardmb-2">
-                  <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(48).jpg" alt="Card image cap">
-                  <div class="card-body cardbody">
-                      <p class="card-title text-center" style="
-      font-size: 20px;
-      color: white !important;
-  ">Omar Mhaimdate</p>
-                      <p class="card-text text-center" style="
-      font-size: 14px;
-      color: white;
-  ">Co-Founder &amp; CTO</p>
-  <hr style="
-      border:1px solid #D4C100;
-  ">
-                      <a class="text-center" style="
-      color: white;
-  ">Read More</a>
-                    </div>
-                </div>
-              </div>
-    
-            </div>
-            <!--/.Second slide-->
-    
-            <!--Third slide-->
-            <div class="carousel-item active">
-    
-              <div class="col-md-4">
-                <div class="card mb-2 cardmb-2">
-                  <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Horizontal/Food/4-col/img%20(53).jpg" alt="Card image cap">
-                  <div class="card-body cardbody">
-                      <p class="card-title text-center" style="
-      font-size: 20px;
-      color: white !important;
-  ">Omar Mhaimdate</p>
-                      <p class="card-text text-center" style="
-      font-size: 14px;
-      color: white;
-  ">Co-Founder &amp; CTO</p>
-  <hr style="
-      border:1px solid #D4C100;
-  ">
-                      <a class="text-center" style="
-      color: white;
-  ">Read More</a>
-                    </div>
-                </div>
-              </div>
-    
-              <div class="col-md-4">
-                <div class="card mb-2 cardmb-2">
-                  <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Horizontal/Food/4-col/img%20(45).jpg" alt="Card image cap">
-                  <div class="card-body cardbody">
-                      <p class="card-title text-center" style="
-      font-size: 20px;
-      color: white !important;
-  ">Omar Mhaimdate</p>
-                      <p class="card-text text-center" style="
-      font-size: 14px;
-      color: white;
-  ">Co-Founder &amp; CTO</p>
-  <hr style="
-      border:1px solid #D4C100;
-  ">
-                      <a class="text-center" style="
-      color: white;
-  ">Read More</a>
-                    </div>
-                </div>
-              </div>
-    
-              <div class="col-md-4">
-                <div class="card mb-2 cardmb-2">
-                  <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Horizontal/Food/4-col/img%20(51).jpg" alt="Card image cap">
-                  <div class="card-body cardbody">
-                      <p class="card-title text-center" style="
-      font-size: 20px;
-      color: white !important;
-  ">Omar Mhaimdate</p>
-                      <p class="card-text text-center" style="
-      font-size: 14px;
-      color: white;
-  ">Co-Founder &amp; CTO</p>
-  <hr style="
-      border:1px solid #D4C100;
-  ">
-                      <a class="text-center" style="
-      color: white;
-  ">Read More</a>
-                    </div>
-                </div>
-              </div>
-    
-            </div>
-            <!--/.Third slide-->
-    
-          </div>
-          <!--/.Slides-->
-    
-        </div>
-        <!--/.Carousel Wrapper-->
-    
-    
-      </section>
-  </div>
-  <!-- Card Light -->
+
+
+
 </div>
-<!--/.Navbar -->
   <!-- Start your project here-->
 
   <!-- SCRIPTS -->

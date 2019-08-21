@@ -2,14 +2,14 @@
     box-shadow: none !important;
 }
 *{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    white-space: nowrap;
+    font-family: 'Muli', sans-serif;
+
 }
 .activated{
     border-bottom: 2px solid blue;
 }
-body{
-    background: url(../img/Waihou.png)
+.nav-link{
+    color: white !important;
 }
 .nav-link{
     font-size: 14px;
@@ -35,4 +35,46 @@ body{
 }
 .cardbody{
     background: black;
+}
+.c-heading{
+    font-size: 46px !important;
+    line-height: 56px !important;
+    padding: 37px 0 3px;
+    font-weight: 600 !important;
+    letter-spacing: -.01em;
+    overflow: hidden;
+    box-sizing: content-box;
+    max-height: 112px;
+    font-weight: 600 !important;
+}
+.c-paragraph{
+    font-size: 15px !important;
+    line-height: 20px;
+    padding: 12px 0 0;
+    font-weight: 400 !important;
+    overflow: hidden;
+    box-sizing: content-box;
+    max-height: 80px;
+    padding: 0 !important;
+    color: black;
+}
+.c-heading3{
+    font-size: 20px !important;
+    line-height: 24px !important;
+    font-weight: 600 !important;
+    opacity: .95;
+    padding-top: 1px;
+    padding-bottom: 2px;
+    margin-top: 37px;
+}
+.c-heading2{
+    font-size: 34px !important;
+    line-height: 40px !important;
+    padding: 37px 0 3px;
+    font-weight: 600 !important;
+    letter-spacing: -.01em;
+    overflow: hidden;
+    box-sizing: content-box;
+    max-height: 80px;
+    font-weight: 600;
 }
