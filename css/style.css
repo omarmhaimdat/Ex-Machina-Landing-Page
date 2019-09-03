@@ -36,6 +36,18 @@
 .cardbody{
     background: black;
 }
+.c-title {
+    font-size: 60px !important;
+    line-height: 56px !important;
+    padding: 37px 0 3px;
+    font-weight: 800 !important;
+    letter-spacing: -.01em;
+    overflow: hidden;
+    box-sizing: content-box;
+    max-height: 112px;
+    margin-bottom: 20px;
+}
+
 .c-heading{
     font-size: 50px !important;
     line-height: 56px !important;
@@ -46,10 +58,11 @@
     box-sizing: content-box;
     max-height: 112px;
     font-weight: 600 !important;
+    margin-bottom: 20px;
 }
 .c-paragraph{
-    font-size: 20px !important;
-    line-height: 20px;
+    font-size: 26px !important;
+    line-height: 30px;
     padding: 12px 0 0;
     font-weight: 400 !important;
     overflow: hidden;
@@ -58,6 +71,7 @@
     padding: 0 !important;
     color: black;
     margin-top: 30px;
+    margin-bottom: 30px;
 }
 .c-heading3{
     font-size: 20px !important;
