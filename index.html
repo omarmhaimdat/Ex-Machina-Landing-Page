@@ -16,55 +16,7 @@
   <!-- Your custom styles (optional) -->
   <link href="css/style.css" rel="stylesheet">
   <link rel="stylesheet" href="./css/com.css">
-  <style>
-    body{
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !important;
-    }
-    .nav-link.active{
-  background: #D4C100 !important;
-  color: white !important;
-  border: none;
-}
-.three_steps_container .three_steps_inner .three_steps_each .three_steps_inner_top::after {
-  position: absolute;
-  border-radius: 33px 33px 0px 33px;
-  background-color: #E4DDFD;
-  color: #7854F7;
-  padding: 19.5px 0px;
-  width: 66px;
-  text-align: center;
-  bottom: -33px;
-  left: -33px;
-}
-.three_steps_each-1560416151935-0 .three_steps_inner_top::after {
-  content: "1";
-    position: absolute;
-    border-radius: 33px 33px 0px 33px;
-    background-color: #E4DDFD;
-    color: #7854F7;
-    padding: 19.5px 0px;
-    width: 66px;
-    text-align: center;
-    left: -33px;
-}
-#home > div > div:nth-child(2) > div > div.three_steps_inner_top::after{
-  content: "2";
-}
-#home > div > div:nth-child(3) > div > div.three_steps_inner_top::after{
-  content: "3";
-}
-.navbar-brand {
-padding: 0 15px;
-height: 80px;
-line-height: 80px;
-}
-.navbar-nav > li{
-margin-left:30px;
-margin-right:30px;
-}
-.shadow-is-success {
-box-shadow: inset 0px -8px 0 #d5c100; }
-  </style>
+  <link href="css/style1.css" rel="stylesheet">
 </head>
 
 <body style="background: #edebeb;">
@@ -135,95 +87,40 @@ box-shadow: inset 0px -8px 0 #d5c100; }
    </div>
 </header>
 <div class="container" style="margin-top:50px; margin-bottom: 50px;background:#edebeb;" id="features">
-  <h1 class="c-heading text-center">Description</h1>
-  <p class="text-center c-paragraph">World's most popular <span class="shadow-is-success">framework</span> for building responsive, mobile-first websites and apps</p>
-  <div class="row" style="margin-top: 80px;">
-    <div class="col-md-6">
-      <!--Carousel Wrapper-->
-<div id="multi-item-example" class="carousel slide carousel-multi-item" data-ride="carousel">
-
-    
+  <!--Description-->
+    <div class="row">
+      <div class="col-md-6">
+          <h1 class="c-heading text-left">Description</h1>
+          <p class="text-left c-paragraph">World's most popular <span class="shadow-is-success">framework</span> for building responsive, mobile-first websites and apps</p>
+                    
+          <div class="wrap">
   
-
-  
-    <!--Slides-->
-    <div class="carousel-inner" role="listbox">
-  
-      <!--First slide-->
-      <div class="carousel-item active">
-  
-        <!-- Card -->
-        <div class="card card-image">
-
-          <!-- Content -->
-          <div class="text-black text-center d-flex align-items-center  py-5 px-4" style="background: #edebeb">
-            <div>
-              <h5 class="" style="color:#D4C100;"><i class="fas fa-chart-pie"></i> Marketing</h5>
-              <h3 class="card-title pt-2"><strong>This is the card title</strong></h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat fugiat, laboriosam, voluptatem,
-                optio vero odio nam sit officia accusamus minus error nisi architecto nulla ipsum dignissimos.
-                Odit sed qui, dolorum!.</p>
-              <a class="btn " style="color:black; background:#D4C100;"><i class="fas fa-clone left"></i> View project</a>
+            <ul class="tabs group">
+              <li><a class="font-weight-bold my-4 active" href="#/one">Light &</a></li>
+              <li><a href="#/two" class="font-weight-bold my-4">Sexy</a></li>
+              <li><a href="#/three" class="font-weight-bold my-4">Tabs</a></li>
+            </ul>
+            
+            <div id="content">
+              <p id="one">Some text about Light sit amet, consectetur adipisicing elit. Pariatur modi quod quo iure recusandae eligendi q.t, consectetur adipisicing elit. Pariatur </p>
+              <p id="two" style="display: none;">Sexy sexy  consectetur adipisicing elit. Pariatur modi quod quo iure recusandae eligendi q.t, consectetur adipisicing elit. Pariatur modi quod quo iureq</p>
+              <p id="three" style="display: none;">Tabs , consectetur adipisicing elit. Pariatur modi quod quo iure recusandae eligendi q.t, consectetur adipisicing elit. Pariatur modi quod quo iureq</p>
             </div>
+            
           </div>
-
+      </div>
+      <div class="col-md-6">
+        <div class="row">
+            <div class="col-md-6">
+                <img src="./img/115.png" alt="" srcset="" style="width: 69%;">
+              </div>
+              <div class="col-md-6">
+                  <img src="./img/454.png" alt="" srcset="" style="width: 69%;">
+              </div>
         </div>
-        <!-- Card -->
-  
       </div>
-      <!--/.First slide-->
-  
-      <!--Second slide-->
-      <div class="carousel-item">
-  
-          <div class="text-black text-center d-flex align-items-center  py-5 px-4">
-              <div>
-                <h5 class="" style="color:#D4C100;"><i class="fas fa-chart-pie"></i> U I C</h5>
-                <h3 class="card-title pt-2"><strong>This is the card title</strong></h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat fugiat, laboriosam, voluptatem,
-                  optio vero odio nam sit officia accusamus minus error nisi architecto nulla ipsum dignissimos.
-                  Odit sed qui, dolorum!.</p>
-                <a class="btn " style="color:black; background:#D4C100;"><i class="fas fa-clone left"></i> View
-                  project</a>
-              </div>
-            </div>
-  
-      </div>
-      <!--/.Second slide-->
-  
-      <!--Third slide-->
-      <div class="carousel-item">
-  
-          <div class="text-black text-center d-flex align-items-center  py-5 px-4">
-              <div>
-                <h5 class="" style="color:#D4C100;"><i class="fas fa-chart-pie"></i> Ex-Machina</h5>
-                <h3 class="card-title pt-2"><strong>This is the card title</strong></h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat fugiat, laboriosam, voluptatem,
-                  optio vero odio nam sit officia accusamus minus error nisi architecto nulla ipsum dignissimos.
-                  Odit sed qui, dolorum!.</p>
-                <a class="btn " style="color:black; background:#D4C100;"><i class="fas fa-clone left"></i> View project</a>
-              </div>
-            </div>
-  
-      </div>
-      <!--/.Third slide-->
-  
     </div>
-    <!--/.Slides-->
-  <!--Controls-->
-  <div class="controls-top">
-      <a class="btn-floating" style="background: transparent;box-shadow:none;" href="#multi-item-example" data-slide="prev"><i style="color: black;" class="fas fa-chevron-left"></i></a>
-      <a class="btn-floating" style="background: transparent;box-shadow:none;" href="#multi-item-example" data-slide="next"><i style="color: black;"
-          class="fas fa-chevron-right"></i></a>
-    </div>
-    <!--/.Controls-->
-  </div>
-  <!--/.Carousel Wrapper-->
-    </div>
-    <div class="col-md-6 text-center">
-      <img src="./img/Huge.png" alt="" srcset="" style="width: 99%;">
-    </div>
-  </div>
+  <!--Description-->
 </div>
 <div class="dib" style="background: #000000;padding-top:50px;padding-bottom:50px;">
   <div class="container">
@@ -578,6 +475,21 @@ box-shadow: inset 0px -8px 0 #d5c100; }
   <script type="text/javascript" src="js/bootstrap.min.js"></script>
   <!-- MDB core JavaScript -->
   <script type="text/javascript" src="js/mdb.min.js"></script>
+  <script>
+    (function($) {
+
+      var tabs =  $(".tabs li a");
+      
+      tabs.click(function() {
+        var content = this.hash.replace('/','');
+        tabs.removeClass("active");
+        $(this).addClass("active");
+        $("#content").find('p').hide();
+        $(content).fadeIn(200);
+      });
+    
+    })(jQuery);
+    </script>
 </body>
 
 </html>
