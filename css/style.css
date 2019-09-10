@@ -93,3 +93,27 @@
     max-height: 80px;
     font-weight: 600;
 }
+@media screen and (min-width: 601px) {
+    
+  }
+  
+  /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+  @media screen and (max-width: 600px) {
+    .c-paragraph{
+        font-size: 16px !important;
+        line-height: 30px;
+        padding: 12px 0 0;
+        font-weight: 400 !important;
+        overflow: hidden;
+        box-sizing: content-box;
+        max-height: 80px;
+        padding: 0 !important;
+        color: black;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    #mission > div > div.col-md-6.text-center > img{
+        margin-top:10px !important;
+    }
+  }
+  
